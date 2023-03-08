@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: firebrick;
+}
+
+.container{
+    box-shadow: 5px 5px 10px rgb(250, 53, 53), -5px -5px 10px rgb(250, 53, 53);
+    margin: 50px auto;
+    width: 400px;
+    height: 700px;
+    background-color: firebrick;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.header img{
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+    
+
+}
+
+.header{
+    position: relative;
+
+}
+
+.relative{
+    position: absolute;
+    top: 0px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px 0 0 0;
+    font-weight: 700;
+    
+}
+
+.relative-2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 0 20px 0 0 ;
+    font-weight: 700;
+}
+
+
+.main{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: gold;
+}
+
+.motovloger{
+    letter-spacing: 4px;
+}
+
+.bike{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    color: azure;
+}
+
+.footer a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    color: firebrick;
+    margin-top: 25px;
+    display: block;
+    border-radius: 20px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+.footer a:hover{
+    background-color: crimson;
+    color: gold;
+}
